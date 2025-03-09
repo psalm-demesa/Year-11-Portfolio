@@ -7,6 +7,7 @@ body{
     padding: 8px;
     background-color: #464444;
     text-decoration: none;
+    position: fixed;
 }
 .home{
     font-size: 50px;
@@ -41,6 +42,7 @@ ul{
     margin-left: 75px;
     text-decoration: none;
     cursor: pointer;
+    margin-right: 75px;
 }
 
 .introduction{
@@ -78,6 +80,7 @@ ul{
     margin-left: 700px;
     margin-right:50px;
     background-position: top;
+    z-index: -1;
 }
 .homepicture2{
     box-sizing: border-box;
@@ -94,8 +97,6 @@ ul{
     margin-left: 900px;
     margin-right:40px;
     z-index: -1;
-    margin-bottom: 800px;
-    margin-top: 10px;;
 }
 
 
