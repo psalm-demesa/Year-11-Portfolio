@@ -1,8 +1,8 @@
 body{
     background-color: #d9d9d9;
+    font-family:"Jersey 25", sans-serif;
 }
 .navigation{
-    font-family:"Jersey 25", sans-serif;
     display: block;
     padding: 8px;
     background-color: #464444;
@@ -11,17 +11,39 @@ body{
 .home{
     font-size: 50px;
     color: #ffff;
+    margin-left: 35px;
 }
 ul{
     display: inline;
+    margin-left: 600px;
 }
-.nav{
+.aboutButton{
     font-size: 30px;
     color: #ffff;
-
+    margin-left: 75px;
+    text-decoration: none;
+    text-shadow: none;
 }
+.aboutButton:hover{
+    text-shadow: #000;
+}
+.toolsButton{
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 75px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.projectsButton{
+    font-size: 30px;
+    color: #ffff;
+    margin-left: 75px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .introduction{
-    font-family:"Jersey 25", sans-serif;
     font-size: 40px;
 }
 .name{
@@ -71,6 +93,10 @@ ul{
     object-fit: cover;
     margin-left: 900px;
     margin-right:40px;
-
+    z-index: -1;
+    margin-bottom: 800px;
+    margin-top: 10px;;
 }
+
+
 
