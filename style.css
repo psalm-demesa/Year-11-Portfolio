@@ -12,11 +12,12 @@ body{
 .home{
     font-size: 50px;
     color: #ffff;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 ul{
     display: inline;
-    margin-left: 600px;
+    margin-left: 750px;
+    margin-right: 35PX;
 }
 .aboutButton{
     font-size: 30px;
@@ -67,6 +68,12 @@ ul{
     text-align: center;
     padding-top: 10px;
 }
+.feedback{
+    font-size: 25px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 10px;
+}
 .homepicture1{
     box-sizing: border-box;
 }
@@ -96,8 +103,32 @@ ul{
     object-fit: cover;
     margin-left: 900px;
     margin-right:40px;
+    z-index: -10;
+}
+.aboutTitle{
+    font-size: 60px;
+    text-align: center;
     z-index: -1;
 }
-
-
-
+.description{
+    font-size: 30px;
+    position: relative;
+    height: 180px;
+    box-sizing:border-box;
+    text-align: center;
+    z-index: -1;
+}
+.aboutSubtitle{
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    height: 35px;
+    z-index: -1;
+}
+.aboutDescription{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    height: 245px;
+    z-index: -1;
+}
