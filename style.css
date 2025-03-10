@@ -132,3 +132,20 @@ ul{
     height: 245px;
     z-index: -1;
 }
+.toolTitle{
+    font-size: 60px;
+    text-align: center;
+    z-index: -1;
+}
+.toolsText{
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+}
+.toolsName{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
