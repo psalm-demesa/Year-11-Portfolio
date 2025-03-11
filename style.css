@@ -2,6 +2,26 @@ body{
     background-color: #d9d9d9;
     font-family:"Jersey 25", sans-serif;
 }
+
+.square1{
+    height: 50px;
+    width: 150px;
+    background-color:#464444;
+    border-radius: 20px;
+    margin-left: 30px;
+    display: block;
+    align-items:center;
+    justify-content: center;
+}
+.square2{
+    height: 50px;
+    width: 150px;
+    background-color:#464444;
+    border-radius: 20px;
+    align-items:center;
+    justify-content: center;
+}
+
 .navigation{
     display: block;
     padding: 8px;
@@ -26,9 +46,6 @@ ul{
     text-decoration: none;
     text-shadow: none;
 }
-.aboutButton:hover{
-    text-shadow: #000;
-}
 .toolsButton{
     font-size: 30px;
     color: #ffff;
@@ -36,7 +53,6 @@ ul{
     text-decoration: none;
     cursor: pointer;
 }
-
 .projectsButton{
     font-size: 30px;
     color: #ffff;
@@ -45,6 +61,8 @@ ul{
     cursor: pointer;
     margin-right: 75px;
 }
+
+
 
 .introduction{
     font-size: 40px;
@@ -105,6 +123,9 @@ ul{
     margin-right:40px;
     z-index: -10;
 }
+
+
+
 .aboutTitle{
     font-size: 60px;
     text-align: center;
@@ -132,6 +153,9 @@ ul{
     height: 245px;
     z-index: -1;
 }
+
+
+
 .toolTitle{
     font-size: 60px;
     text-align: center;
@@ -141,6 +165,7 @@ ul{
     text-align: center;
     font-size: 45px;
     position: relative;
+    z-index: -1;
 }
 .toolsName{
     color: white;
@@ -148,4 +173,60 @@ ul{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
+    z-index: -1;
+}
+
+
+
+.projects{
+    align-items: center;
+}
+.projectsTitle{
+    font-size: 60px;
+    text-align: center;
+    z-index: -1;
+}
+.projectsNumber{
+    color: #ffffff;
+    text-align: center;
+    font-size: 150px;
+}
+.rectangle1{
+    height: 350px;
+    width:435px;
+    background-color:#464444;
+    border-radius: 25px;
+    position:absolute;
+    display: block;
+    left: 0;
+    z-index: -1;
+}
+.rectangle1:hover{
+    opacity: 0.5;
+}
+.rectangle2{
+    height: 350px;
+    width:435px;
+    background-color:#464444;
+    border-radius: 25px;
+    position:absolute;
+    display: block;
+    left: 475px;
+    z-index: -1;
+}
+.rectangle2:hover{
+    opacity: 0.5;
+}
+.rectangle3{
+    height: 350px;
+    width:435px;
+    background-color:#464444;
+    border-radius: 25px;
+    position:absolute;
+    display: block;
+    left: 950px;
+    z-index: -1;
+}
+.rectangle3:hover{
+    opacity: 0.5;
 }
