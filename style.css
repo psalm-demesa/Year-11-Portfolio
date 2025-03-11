@@ -66,6 +66,11 @@ ul{
 
 .introduction{
     font-size: 40px;
+    /*Added flexbox to the overarching tag element*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .name{
     padding-right: 80px;
