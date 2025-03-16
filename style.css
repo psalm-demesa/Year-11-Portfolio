@@ -89,7 +89,6 @@ ul{
     border: none;
     cursor: pointer;
     font-family: "Jersey 25",sans-serif;
-    overflow: hidden;
     transition: all 0.5s ease-in-out;
 }
 .contact:hover, .feedback:hover{
@@ -270,6 +269,10 @@ ul{
 }
 .rectangle1, .rectangle2, .rectangle3 {
     transition: 0.3s;
+}
+.rectangle1, .rectangle2, .rectangle3{
+    margin-left: 60px;
+    margin-right: 50px;
 }
 .projects a {
     text-decoration: none;
