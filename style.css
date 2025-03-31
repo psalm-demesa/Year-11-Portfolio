@@ -154,6 +154,15 @@ ul{
     text-align: center;
     z-index: -1;
 }
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+.column3{
+    width: 45%;
+    padding: 10px;
+    border: none;
+}
 .aboutSubtitle{
     text-align: center;
     font-size: 45px;
@@ -281,12 +290,22 @@ ul{
     height: 100%;
 }
 
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
 .column2{
     width: 45%;
     padding: 10px;
     text-align: center;
     position: relative;
     z-index: -1;
+}
+.turnaround{
+    padding-top: 8rem;
+    height:20rem;
+    width: 40rem;
 }
 .projectTitle{
     padding-top: 8rem;
